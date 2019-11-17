@@ -17,7 +17,10 @@ notify_url|支付回调地址|string|必填|用户支付成功后，会POST这�
 return_url|跳转地址|string|必填|用户支付成功后，我们会让用户浏览器自动跳转到这个网址。由您自定义不可加参数。
 order_id|订单号|string|必填|订单号，由您自定义，要求唯一性，不可重复。
 remark|备注|string|必填|建议传用户的ID
-key|加密字符串|string|必填|"格式为 MD5(uid + auth_code + money + notify_url + order_id) （auth_code获取请联系客服）
+key|加密字符串|string|必填|"格式为 MD5(uid + auth_code + money + notify_url + order_id) 
+
+
+``auth_code``请联系客服获取
 
 >## 响应参数 
 
