@@ -36,7 +36,7 @@ key|加密|string|二次验证加密方式MD5(uid + order_no + order_money + aut
     "real_money": 1.00,
     "order_id": "8019022311131211111",
     "order_no": "301903201745151327296265",
-    "channel":"ocpay",
+    "channel":"cfpay",
     "remark": "测试20190314"
 }
 ```

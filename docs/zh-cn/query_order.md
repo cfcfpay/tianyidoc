@@ -4,7 +4,7 @@
 
 请求方式：`HTTP POST`
 
-    https://pay.tianyipay.cc/query_order/
+    https://pay.jdypay.cc/query_order/
 
 >## 请求参数
 
@@ -41,7 +41,7 @@ remark|备注|string|备注
     "order_no": "20190320171103327296265",
     "order_id": "201902231113111111",
     "pay_time": "2019-03-20 17:11:13",
-    "channel":"ocpay",
+    "channel":"cfpay",
     "remark":"test"
 }
 ```
